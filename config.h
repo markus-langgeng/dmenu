@@ -6,8 +6,10 @@ static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't us
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static char font[] = "monospace:size=10";
 static const char *fonts[] = {
-	font,
-	"monospace:size=10"
+  font,
+  "Symbols Nerd Font:pixelsize=14:antialias=true:autohint=true",
+  "Noto Color Emoji:pixelsize=12:antialias=true:autohint=true",
+  "Noto Sans CJK JP:pixelsize=13:antialias=true:autohint=true",
 };
 
 static char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
